@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block content %} {% if page.content|trim == "" %}
+<div class="md-typeset md-content__inner markdown-body">
+  <section class="coming-soon-shell" aria-label="Coming soon section">
+    <div class="coming-soon-card">
+      <div class="coming-soon-header">
+        <span class="coming-soon-label">Section in preparation</span>
+        <h2 class="coming-soon-topic">{{ page.title }}</h2>
+      </div>
+
+      <div class="coming-soon-body">
+        <h1>Coming Soon</h1>
+        <p class="coming-soon-status">
+          This section is currently being prepared.
+        </p>
+        <p>
+          More notes and practical security observations will be published here
+          soon.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+{% else %} {{ super() }} {% endif %} {% endblock %}

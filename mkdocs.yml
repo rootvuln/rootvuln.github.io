@@ -1,0 +1,63 @@
+site_name: RootVuln AppSec
+site_description: Vineet Kumar's Application Security Knowledge Base
+site_author: Vineet Kumar
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/rootvuln-logo.png
+  favicon: assets/rootvuln-logo.png
+
+  palette:
+    - primary: black
+      accent: green
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  font:
+    text: JetBrains Mono
+    code: JetBrains Mono
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+
+  - Web Security:
+      - XSS: web-security/xss.md
+      - SQL Injection: web-security/sql-injection.md
+      - SSRF: web-security/ssrf.md
+      - LFI: web-security/lfi.md
+      - File Upload: web-security/file-upload.md
+      - Web Cache Poisoning: web-security/cache-poisoning.md
+      - Web Cache Deception: web-security/cache-deception.md
+      - HTTP Request Smuggling: web-security/request-smuggling.md
+
+  - API Security:
+      - API Testing: api-security/api-testing.md
+      - Authentication: api-security/authentication.md
+      - Authorization: api-security/authorization.md
+      - OAuth 2.0: api-security/oauth.md
+      - IDOR / BOLA: api-security/idor-bola.md
+
+  - Methodology:
+      - Reconnaissance: methodology/recon.md
+      - Testing: methodology/testing.md
+      - Reporting: methodology/reporting.md
+
+  - Labs:
+      - Labs: labs/
+
+  - Research:
+      - Research Notes: research/notes.md
+
+  - Security Writeups:
+      - File Upload/RCE : writeups/file-to-rce.md

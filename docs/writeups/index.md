@@ -7,5 +7,3 @@ Writeups help turn experience into a reusable reference by documenting what was 
 ## Included content
 
 - [File Upload / RCE](file-to-rce.md)
-
-This page acts as the landing page for published writeups and related documentation.

@@ -7,5 +7,3 @@ Security research often builds over time, and this area helps organize findings,
 ## Included content
 
 - [Research Notes](notes.md)
-
-This page acts as the entry point for ongoing research work and long-form learning notes.

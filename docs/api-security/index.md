@@ -12,4 +12,4 @@ API security includes both the design of secure interfaces and the testing of th
 - [OAuth 2.0](oauth.md)
 - [IDOR / BOLA](idor-bola.md)
 
-This section is intended to act as a practical reference area for understanding how APIs are tested and how common security controls fail in real systems.
+

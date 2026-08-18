@@ -10,4 +10,4 @@ A strong methodology helps turn technical findings into a more structured, repea
 - [Testing](testing.md)
 - [Reporting](reporting.md)
 
-This area provides a structured view of how security work is typically planned, executed, and documented.
+

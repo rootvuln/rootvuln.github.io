@@ -14,5 +14,3 @@ The goal is to organize practical notes around the vulnerabilities, weaknesses, 
 - [Web Cache Poisoning](cache-poisoning.md)
 - [Web Cache Deception](cache-deception.md)
 - [HTTP Request Smuggling](request-smuggling.md)
-
-This area is intended to serve as a structured starting point for reviewing and understanding web security issues in a practical, methodical way.

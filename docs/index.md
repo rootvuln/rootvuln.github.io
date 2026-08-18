@@ -1,4 +1,4 @@
-# RootVuln AppSec 
+# RootVuln AppSec
 
 > **A personal knowledge base for Application Security, Web Security, API Security, and Security Research.**
 
@@ -14,20 +14,14 @@ This isn't a collection of copied documentation.
 
 It's my **working security knowledge base** — written in my own words so I can quickly revisit concepts I've studied and share what I've learned with others.
 
-### The cycle
+---
 
-```text
-Learn
-  ↓
-Practice
-  ↓
-Understand
-  ↓
-Document
-  ↓
-Publish
-  ↓
-Revisit
-  ↓
-Improve
-```
+## Currently Available
+
+### API Security
+
+- [OAuth 2.0](api-security/oauth.md)
+
+### Writeups
+
+- [File Upload / RCE](writeups/file-to-rce.md)

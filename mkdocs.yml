@@ -32,6 +32,7 @@ nav:
   - Home: index.md
 
   - Web Security:
+      - Overview: web-security/index.md
       - XSS: web-security/xss.md
       - SQL Injection: web-security/sql-injection.md
       - SSRF: web-security/ssrf.md
@@ -42,6 +43,7 @@ nav:
       - HTTP Request Smuggling: web-security/request-smuggling.md
 
   - API Security:
+      - Overview: api-security/index.md
       - API Testing: api-security/api-testing.md
       - Authentication: api-security/authentication.md
       - Authorization: api-security/authorization.md
@@ -49,15 +51,18 @@ nav:
       - IDOR / BOLA: api-security/idor-bola.md
 
   - Methodology:
+      - Overview: methodology/index.md
       - Reconnaissance: methodology/recon.md
       - Testing: methodology/testing.md
       - Reporting: methodology/reporting.md
 
   - Labs:
-      - Labs: labs/
+      - Overview: labs/index.md
 
   - Research:
+      - Overview: research/index.md
       - Research Notes: research/notes.md
 
-  - Security Writeups:
+  - Writeups:
+      - Overview: writeups/index.md
       - File Upload/RCE : writeups/file-to-rce.md
